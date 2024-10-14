@@ -1,0 +1,119 @@
+
+.nav-items li {
+    list-style: none;
+    color:white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -.4px;
+    cursor: pointer;
+}
+.nav-items {
+    height: 52px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Gettheapp {
+    border-radius:10px;
+    border :1px solid white;
+    background-color: rgb(255, 82, 0);
+    color:white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -.4px;
+    cursor: pointer;
+}
+
+.SignIn{
+    border-radius:10px;
+     border:1px solid black;
+     background-color: black;
+     color:white;
+     font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -.4px;
+    cursor: pointer;
+
+}
+.text {
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    padding-left: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy_Bold;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+}
+
+.search{
+    padding:10px;
+    border:none;
+    border-radius: 8px;
+    margin-right: 10px;
+    width:300px
+}
+.search p{
+    color:rgba(2, 6, 12, .6);
+}
+
+.btn-right{
+    width:400px;
+    border:none;
+    border-radius: 8px;
+}
+
+.btn-right p{
+    color:rgba(2, 6, 12, .6);
+}
+
+.main-cont {
+    background-image: url("Images/backgroung-img1.png"),url("Images/backgroung-img-2.png");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: 0% 27%, 100% 34%; /* Moves the image 50% horizontally and 30% vertically */
+    background-size: 263px 457px ,274px 497px ;  /* Width of 100px and height of 200px */
+}
+
+.card1{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+}
+
+.heading{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.6px;
+    color: rgba(2, 6, 12, 0.92);
+}
+
+.icon{
+    border:none;
+    border-radius: 50%;
+    padding: 10px;
+}
+.slick-slider {
+    display: block;
+    position: relative;
+  }
+  
+  .slick-slide {
+    display: inline-block;
+  }
+  
